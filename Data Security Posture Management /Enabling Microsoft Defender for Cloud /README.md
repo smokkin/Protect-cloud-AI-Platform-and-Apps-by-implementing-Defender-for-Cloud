@@ -39,5 +39,5 @@ To deploy, sign in to the Azure Portal and use the search bar to type Deploy a c
 
 Once the deployment is initiated, you can monitor its progress. Go to Resource groups in the portal, open the new resource group you created, and select Deployments. You should see the deployment in progress. When it finishes, each resource will show Provisioning state: Succeeded
 
-<img width="450" height="230" alt="image" src="https://github.com/user-attachments/assets/e082c41c-ddf3-4760-a350-2f0048fc0e62" />
+ <img width="450" height="230" alt="image" src="https://github.com/user-attachments/assets/e082c41c-ddf3-4760-a350-2f0048fc0e62" />
 
