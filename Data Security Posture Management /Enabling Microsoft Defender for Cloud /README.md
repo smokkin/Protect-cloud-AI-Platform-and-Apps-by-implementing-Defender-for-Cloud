@@ -18,15 +18,11 @@ For the lab i used a special Azure deployment link that opens the Azure Portal a
 
 To deploy, sign in to the Azure Portal and use the search bar to type Deploy a custom template. Select the Deploy a custom template option (as shown above). This opens the Custom deployment page. Here, you provide deployment details:
 <img width="819" height="453" alt="image" src="https://github.com/user-attachments/assets/088badf8-0c4d-459e-bb56-2da30a4ba181" />
-
-
+[Retrieve a custom template]([https://example.com](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/quickstart-create-templates-use-the-portal#retrieve-a-custom-template))
 
 Subscription: Choose your Azure subscription.
-
 Resource group: Create a new resource group (e.g. asclab-rg) or use an existing one.
-
 Region: Select a region (e.g. “West Europe”). All resources will be deployed in this region.
-
 Administrator password: Enter a strong admin password (minimum 12 characters with mixed-case, numbers, and symbols) for the VMs/SQL in the template.
 After entering these values, click Review + create, and then Create to start the deployment. Azure validates the template and then provisions the resources. The deployment can take several minutes (typically ~10 minutes).
 
