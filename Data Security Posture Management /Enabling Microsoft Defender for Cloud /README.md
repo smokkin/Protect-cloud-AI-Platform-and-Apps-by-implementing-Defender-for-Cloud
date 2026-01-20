@@ -21,7 +21,7 @@ To deploy, sign in to the Azure Portal and use the search bar to type Deploy a c
 
 [Retrieve a custom template](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/quickstart-create-templates-use-the-portal#retrieve-a-custom-template)
 
-Sub item 1 Subscription: Choose your Azure subscription.
+Item 1 Subscription: Choose your Azure subscription.
 Sub item 2 Resource group: Create a new resource group (e.g. asclab-rg) or use an existing one.
 Sub item 3 Region: Select a region (e.g. “West Europe”). All resources will be deployed in this region.
 Sub item 4 Administrator password: Enter a strong admin password (minimum 12 characters with mixed-case, numbers, and symbols) for the VMs/SQL in the template.
