@@ -10,7 +10,7 @@ Capture and document your steps with screenshots.
 
 Verify that resources are deployed and Defender for Cloud is active.
 
-#Exercise: Provisioning Resources
+# Exercise: Provisioning Resources
 
 Purpose of the ARM Template. An ARM (Azure Resource Manager) template is a JSON file that defines your cloud infrastructure in a declarative manner. [What are ARM templates?](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/overview#:~:text=To%20implement%20infrastructure%20as%20code,group%20those%20resources%20are%20deployed) Using an ARM template lets you automatically provision multiple Azure resources in one step, ensuring a repeatable and consistent environment. This lab’s template deploys a variety of resources (e.g. Windows and Linux VMs, an availability set, an AKS cluster, an App Service Plan with Web App, a SQL server and database, a Key Vault, a Function App, a Log Analytics workspace, Network Security Group, Azure Container Registry, Storage account, etc.). All these resources are defined in the JSON template so they are created together.
 
