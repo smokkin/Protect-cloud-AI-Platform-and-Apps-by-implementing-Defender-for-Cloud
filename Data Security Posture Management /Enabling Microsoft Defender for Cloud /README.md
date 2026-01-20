@@ -23,6 +23,7 @@ Using an ARM template lets you automatically provision multiple Azure resources 
 For the lab i used a special Azure deployment link that opens the Azure Portal and starts the process of deploying a resource using a predefined ARM (Azure Resource Manager) template hosted on GitHub. It’s commonly used in labs, tutorials, or automation scenarios to quickly set up cloud infrastructure.
 
 To deploy, sign in to the Azure Portal and use the search bar to type Deploy a custom template. Select the Deploy a custom template option (as shown above). This opens the Custom deployment page. Here, you provide deployment details:
+
 <img width="400" height="220" alt="image" src="https://github.com/user-attachments/assets/088badf8-0c4d-459e-bb56-2da30a4ba181" />
 
 [Retrieve a custom template](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/quickstart-create-templates-use-the-portal#retrieve-a-custom-template)
@@ -33,5 +34,10 @@ To deploy, sign in to the Azure Portal and use the search bar to type Deploy a c
 - Administrator password: Enter a strong admin password (minimum 12 characters with mixed-case, numbers, and symbols) for the VMs/SQL in the template.
 - After entering these values, click Review + create, and then Create to start the deployment. Azure validates the template and then provisions the resources. The deployment can take several minutes (typically ~10 minutes).
 
+  <img width="450" height="230" alt="image" src="https://github.com/user-attachments/assets/d711a997-6198-4bde-b9fd-20d48c10e4a9" /> <img width="450" height="230" alt="image" src="https://github.com/user-attachments/assets/b93880eb-c52f-4b15-9dcc-36265046ca38" />
+  <img width="450" height="230" alt="image" src="https://github.com/user-attachments/assets/44fbcfca-9322-4f8e-9a3c-2272735acbad" /> 
+
 Once the deployment is initiated, you can monitor its progress. Go to Resource groups in the portal, open the new resource group you created, and select Deployments. You should see the deployment in progress. When it finishes, each resource will show Provisioning state: Succeeded
+
+<img width="450" height="230" alt="image" src="https://github.com/user-attachments/assets/e082c41c-ddf3-4760-a350-2f0048fc0e62" />
 
