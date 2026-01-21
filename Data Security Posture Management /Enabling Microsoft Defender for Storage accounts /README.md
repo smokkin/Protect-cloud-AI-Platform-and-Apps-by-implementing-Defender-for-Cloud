@@ -4,8 +4,8 @@ This guide outlines a practical lab exercise on enabling and setting up Microsof
 We use the Azure Portal to turn on the service, check costs and coverage, and customize options such as limits on malware scanning and detection of sensitive data. This setup works with Microsoft Purview for classifying data and offers real-time alerts for threats. It is useful for ensuring security and meeting compliance standards in cloud storage.
 The lab has two key exercises:
 
-Exercise 1: Turn on Microsoft Defender for Storage via the Azure Portal.
-Exercise 2: Adjust the settings for Microsoft Defender for Storage, including changes to subscription-wide options.
+- Exercise 1: Turn on Microsoft Defender for Storage via the Azure Portal.
+- Exercise 2: Adjust the settings for Microsoft Defender for Storage, including changes to subscription-wide options.
 
 This lab helped my understanding in configuring Azure security, managing policies, and protecting against threats. It is relevant for jobs in cloud security, DevSecOps, or Azure management.
 
