@@ -12,7 +12,8 @@ This lab helped my understanding in configuring Azure security, managing policie
 # Step-by-Step Guide
 
 Exercise: Turn On Microsoft Defender for Storage in the Azure Portal
-Step 6: In the Environment settings page, clicking the "Contoso-Security-078" Azure subscription under the main tenant group. It lists 10 total resources and 12/12 coverage for Defender plans.
+
+Step 1: In the Environment settings page, clicking the "Contoso-Security-078" Azure subscription under the main tenant group. It lists 10 total resources and 12/12 coverage for Defender plans.
 This check in the lab confirms that turning on and adjusting Defender for Storage has updated the full environment coverage. Reaching 12/12 plans means there are resourced linked and worked well. The exercise ensures that there are no missing parts, and it is ready for adding other resource to the cloud if wanted. This overall check connects back to the goal of protection across the subscription.
 
 <img width="260" height="140" alt="image" src="https://github.com/user-attachments/assets/55d81f2a-9314-42df-a5ae-e23c2aed4b33" />
@@ -32,14 +33,9 @@ Step 4: Storage Plan Details pane for Defender for Storage. It lists benefits li
   
 <img width="260" height="140" alt="image" src="https://github.com/user-attachments/assets/de0cb9c4-5647-49e9-bbd6-6fee684dc601" /> <img width="260" height="140" alt="image" src="https://github.com/user-attachments/assets/b8b5392e-f35b-4733-ae78-8bd6a775532d" />
 
-Step 5: Set Limits for Malware Scanning
-The fifth screenshot goes back to "Settings & monitoring" with the "On-upload malware scanning configuration" open. It sets a limit of 5000 GB scanned per month per storage account.
-- Adjusted the malware scanning feature by putting a cap on scanned data to manage costs. The standard might be no limit, but changing it here avoids extra fees. This feature works without agents, checking every blob upload and giving fast results for automatic fixes. The lab shows real setup, linking to wider Defender tools for threat warnings.
-
-
 Step 5: Go to Settings and Monitoring for Storage
 - This displays the "Settings & monitoring" page in Microsoft Defender for Cloud > Environment settings > Defender plans. It highlights the "Storage" plan, with features like "Malware scanning" (turned on, with a 5000 GB scan limit, costing $0.15 per GB) and "Sensitive data discovery" (turned on, linked to Microsoft Purview).
-- This step takes you to the area where you set up Defender for Storage. Turning on these features protects Azure Blob Storage by checking uploads for harmful software right away and finding sensitive data through smart checks and labels. The lab aims to confirm or activate these at the subscription level, allowing changes to standard settings. This improves overall security by giving quick scan results for automated actions and rule-following. In real use, it stops data leaks and supports laws like GDPR.
+- This step takes you to the area where you set up Defender for Storage. Turning on these features protects Azure Blob Storage by checking uploads for harmful software right away and finding sensitive data through smart checks and labels. The lab aims to confirm or activate these at the subscription level, allowing changes to standard settings. This improves overall security by giving quick scan results for automated actions and rules following. In real use, it stops data leaks and supports laws like GDPR.
   
 <img width="260" height="140" alt="image" src="https://github.com/user-attachments/assets/d1fc6045-2d82-4b57-85af-b83620362316" /> <img width="260" height="140" alt="image" src="https://github.com/user-attachments/assets/8be6408a-ee3d-4e0d-946e-90ad5ec66b0a" />
 <img width="260" height="140" alt="image" src="https://github.com/user-attachments/assets/99500580-843c-4d94-99c5-2c59ed3592d2" />
